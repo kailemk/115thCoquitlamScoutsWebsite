@@ -115,20 +115,20 @@ body {
 
 .dropdown-button:hover{background-color: rgba(0,0,0,1.0);}
 
-.banner-bottom{
+.join-region{
     flex:55%;
     text-align: center;
     
 }
 
-.banner-heading{
+.join-heading{
     color:white;
     margin: auto;
-    font-family: header-tab-font, Arial, Helvetica, sans-serif;
+    font-family: banner-font, Arial, Helvetica, sans-serif;
     
 }
 
-.banner-button{
+.join-button{
     position: relative;
     background-color: rgba(0,0,0,1);
     border-color: transparent;
@@ -136,10 +136,10 @@ body {
     color: white;
     padding: 8px 26px;
     margin: 20px 0;
-    font-family: header-tab-font, Arial, Helvetica, sans-serif;
+    font-family: banner-font, Arial, Helvetica, sans-serif;
     font-size: large;
 }
 
-.banner-button:hover{
+.join-button:hover{
     background-color: rgba(0,0,0,0.5);
 }

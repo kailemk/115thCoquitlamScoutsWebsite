@@ -124,7 +124,7 @@ body {
 .banner-heading{
     color:white;
     margin: auto;
-    font-family: banner-font, Arial, Helvetica, sans-serif;
+    font-family: header-tab-font, Arial, Helvetica, sans-serif;
     
 }
 
@@ -136,7 +136,7 @@ body {
     color: white;
     padding: 8px 26px;
     margin: 20px 0;
-    font-family: banner-font, Arial, Helvetica, sans-serif;
+    font-family: header-tab-font, Arial, Helvetica, sans-serif;
     font-size: large;
 }
 

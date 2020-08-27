@@ -22,7 +22,8 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url(../images/Mt-Garibaldi-TravelSages-Truck-Camping.jpg);
-
+    object-fit: fill;
+    background-size: cover;
     background-position: center;
     text-align: center;
 

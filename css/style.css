@@ -13,12 +13,17 @@
     font-family: banner-font;
 }
 
+@font-face{
+    src:url(../fonts/Calligraffitti/Calligraffitti-Regular.ttf);
+    font-family: page-title-font;
+}
+
 body {
     margin: auto;
 }
 
 .banner-container{
-    height:600px;
+    height:100vh;
     display: flex;
     flex-direction: column;
     background-image: url(../images/Mt-Garibaldi-TravelSages-Truck-Camping.jpg);
@@ -130,7 +135,7 @@ body {
 
 .join-button{
     position: relative;
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(32,112,104, 0.9);
     border-color: transparent;
     border-radius: 5px;
     color: white;
@@ -138,8 +143,46 @@ body {
     margin: 20px 0;
     font-family: banner-font, Arial, Helvetica, sans-serif;
     font-size: large;
+    font-weight: 1000;
 }
 
 .join-button:hover{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(32,112,104, 0.5);
+}
+
+.page-content{
+    max-width: 1024px;
+    margin: auto;
+    
+}
+
+.page-title{
+    font-family: page-title-font, Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 150px 0;
+    text-align: center;
+    
+}
+
+
+.announcement{
+    display: flex;
+    align-content: flex-end;
+    
+    
+}
+
+.announcement-message{
+    flex:1;
+    font-size: 20px;
+    margin:0 50px;
+}
+
+.announcement-image{
+    flex:1;
+    background-image: url(../images/whonock.jpg);
+    object-fit: scale-down;
+    background-size: cover;
+    background-position: center;
+    margin:0 50px;
 }

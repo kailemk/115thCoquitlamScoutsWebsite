@@ -6,70 +6,199 @@
     <script type="text/javascript" src="javascript/paragraphs.js"></script>
 </head>
 <body>
-    <div class = "banner-container">
-        <div class = "main-header-wrapper">
-            <header class = "main-header">
-                <div class = "site-title">
-                    <a href="">15th Coquitlam Scouts</a>
-                </div>
-                    
-                <div class = "main-header-dropdowns">
-
-                    <div class="main-header-dropdown">
-                        <button class="dropbtn" disabled>Programs</button>
-                        <div class="dropdown-content">
-                        <a class = "dropdown-button" href="#">Link 1</a>
-                        <a class = "dropdown-button" href="#">Link 2</a>
-                        <a class = "dropdown-button" href="#">Link 3</a>
-                        </div>
+    <div id ="content-desktop">
+        <div class = "banner-container">
+            <div class = "main-header-wrapper">
+                <header class = "main-header">
+                    <div class = "site-title">
+                        <a href="">15th Coquitlam Scouts</a>
                     </div>
+                        
+                    <div class = "main-header-dropdowns">
 
-                    <div class="main-header-dropdown">
-                        <button class="dropbtn" disabled>Resources</button>
-                        <div class="dropdown-content">
-                        <a class = "dropdown-button" href="#"></a>
-                        <a class = "dropdown-button" href="#">Link 2</a>
-                        <a class = "dropdown-button" href="#">Link 3</a>
+                        <div class="main-header-dropdown">
+                            <button class="dropbtn not-link" disabled>Programs</button>
+                            <div class="dropdown-content">
+                            <a class = "dropdown-button" href="#">Schedule</a>
+                            <a class = "dropdown-button" href="#">Outings</a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="main-header-dropdown">
-                        <button class="dropbtn" disabled>Contacts</button>
-                        <div class="dropdown-content">
-                        <a class = "dropdown-button" href="#">Link 1</a>
-                        <a class = "dropdown-button" href="#">Link 2</a>
-                        <a class = "dropdown-button" href="#">Link 3</a>
+                        <div class="main-header-dropdown">
+                            <button class="dropbtn not-link" disabled>Resources</button>
+                            <div class="dropdown-content">
+                            <a class = "dropdown-button" href="#">Uniform</a>
+                            <a class = "dropdown-button" href="#">Equipment Lists</a>
+                            <a class = "dropdown-button" href="#">Registration</a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="main-header-dropdown">
-                        <button class="dropbtn" disabled>About</button>
-                        <div class="dropdown-content">
-                        <a class = "dropdown-button" href="#">Link 1</a>
-                        <a class = "dropdown-button" href="#">Link 2</a>
-                        <a class = "dropdown-button" href="#">Link 3</a>
+                        <div class="main-header-dropdown">
+                            <button class="dropbtn is-link">Contacts</button>
                         </div>
+
+                        <div class="main-header-dropdown">
+                            <button class="dropbtn is-link">About</button>
+                        </div>
+
                     </div>
-
-                </div>
-            </header>
-        </div> 
-          
-        <div class = "join-region">
-            <h1 class = "join-heading">Adventure Awaits</h1>
-            <button class = "join-button">Join</button>
-        </div>
-    </div>
-
-    <div class = "page-content">
-        <h1 class = "page-title">Announcements</h1>
-        <div class = "announcement">
-            <div class = "announcement-message">
-                <p id = "christmas-camp-2019"></p>
+                </header>
+            </div> 
+            
+            <div class = "join-region">
+                <h1 class = "join-heading">Adventure Awaits</h1>
+                <button class = "join-button">Join</button>
             </div>
-            <div class = "announcement-image"> </div>
         </div>
+
+        <h1 class = "page-title">Announcements</h1>
+        <div class = "announcement-odd">
+            <h2 class = "announcement-title">Christmas Camp 2019</h2>
+            <h4 class = "announcement-date">Posted November 13, 2019 at 9:20PM </h4>
+            <div class = "announcement-content">
+                <div class = "announcement-message christmas-camp-2019"></div>
+                <div class = "announcement-image-side">
+                    <div class = "top-announcement-separator"></div> 
+                    <img src="../images/whonock.jpg" alt="Camp Whonock" class = "announcement-image" id = "whonock-img">
+                    <div class = "button-container">
+                        <button class = announcement-button>Sign up</button>
+                    </div>
+                    <div class = "bot-announcement-separator"></div> 
+                </div>
+            </div>        
+        </div>
+        <div class = "announcement-even">
+            <h2 class = "announcement-title">Scout and Cub Camp This Weekend</h2>
+            <h4 class = "announcement-date">Posted November 5, 2019 at 11:02PM </h4>
+            <div class = "announcement-content">
+                <div class = "announcement-image-side">
+                    <img src="../images/hubba-tent.jpg" alt="Camp Whonock" class = "announcement-image" id = "hubba-img">
+                    <div class = "button-container">
+                        <button class = announcement-button>Sign up</button>
+                    </div>
+                </div>
+                <div class = "announcement-message camp-reminder"></div>
+            </div>
+        </div>
+        <footer>
+            <div class = "footer-container">
+                <img src = "images/logo.png" alt="Scouts Canada Logo">
+                <div>
+                    <div class = "footer-header">
+                        <h1>15th Coquitlam Scouts</h1>
+                    </div>
+                    <div class = "footer-links">
+                        <ul>
+                            <a href="#" class = "not-link">Programs</a>
+                            <a href="#" class = "is-link">Schedule</a>
+                            <a href="#" class = "is-link">Outings</a>
+                        </ul>
+                        <ul>
+                            <a href="#" class = "not-link">Resources</a>
+                            <a href="#" class = "is-link">Equipment Lists</a>
+                            <a href="#" class = "is-link">Registration</a>
+                        </ul>
+                        <ul>
+                            <a href="#" class = "is-link">Contacts</a>
+                        </ul>
+                        <ul>
+                            <a href="#" class = "is-link">About</a>
+                        </ul>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>Email:</td>
+                            <td>15th.coquitlam.scoutsection@gmail.com</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </footer>
     </div>
-    
+
+
+
+
+    <div id = "content-mobile">
+        <div class = "banner-container">
+            <div class = "main-header-wrapper">
+                <header class = "main-header">
+                    <div class = "site-title">
+                        <a href="">15th Coquitlam Scouts</a>
+                    </div>
+                    <input type="image" class = "header-menu" src="/images/menu-icon.png" >
+                </header>
+            </div> 
+            
+            <div class = "join-region">
+                <h1 class = "join-heading">Adventure Awaits</h1>
+                <button class = "join-button">Join</button>
+            </div>
+        </div>
+
+        <h1 class = "page-title">Announcements</h1>
+        <div class = "announcement-odd">
+            <h2 class = "announcement-title">Christmas Camp 2019</h2>
+            <h4 class = "announcement-date">Posted November 13, 2019 at 9:20PM </h4>
+            <div class = "announcement-content">
+                <div class = "announcement-message christmas-camp-2019"></div>
+                <div class = "announcement-image-side">
+                    <div class = "top-announcement-separator"></div> 
+                    <img src="../images/whonock.jpg" alt="Camp Whonock" class = "announcement-image" id = "whonock-img">
+                    <div class = "button-container">
+                        <button class = announcement-button>Sign up</button>
+                    </div>
+                    <div class = "bot-announcement-separator"></div> 
+                </div>
+            </div>        
+        </div>
+        <div class = "announcement-even">
+            <h2 class = "announcement-title">Scout and Cub Camp This Weekend</h2>
+            <h4 class = "announcement-date">Posted November 5, 2019 at 11:02PM </h4>
+            <div class = "announcement-content">
+                <div class = "announcement-image-side">
+                    <img src="../images/hubba-tent.jpg" alt="Camp Whonock"  class = "announcement-image" id = "hubba-img">
+                    <div class = "button-container">
+                        <button class = announcement-button>Sign up</button>
+                    </div>
+                </div>
+                <div class = "announcement-message camp-reminder"></div>
+            </div>
+        </div>
+        <footer>
+            <div class = "footer-container">
+                <img src = "images/logo.png" alt="Scouts Canada Logo">
+                <div>
+                    <div class = "footer-header">
+                        <h1>15th Coquitlam Scouts</h1>
+                    </div>
+                    <div class = "footer-links">
+                        <ul>
+                            <a href="#" class = "not-link">Programs</a>
+                            <a href="#" class = "is-link">Schedule</a>
+                            <a href="#" class = "is-link">Outings</a>
+                        </ul>
+                        <ul>
+                            <a href="#" class = "not-link">Resources</a>
+                            <a href="#" class = "is-link">Equipment Lists</a>
+                            <a href="#" class = "is-link">Registration</a>
+                        </ul>
+                        <ul>
+                            <a href="#" class = "is-link">Contacts</a>
+                        </ul>
+                        <ul>
+                            <a href="#" class = "is-link">About</a>
+                        </ul>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>Email:</td>
+                            <td>15th.coquitlam.scoutsection@gmail.com</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

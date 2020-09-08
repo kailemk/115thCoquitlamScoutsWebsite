@@ -148,7 +148,11 @@ body {
 .header-menu{
     max-height:30px;
     width: auto;
-    padding:28px;
+    padding:18px;
+    background: transparent;
+    border:transparent;
+    color:white;
+    font-size: xx-large;
 }
 
 .join-region{
@@ -361,4 +365,51 @@ footer{
     font-family: header-tab-font, Arial, Helvetica, sans-serif;
     font-size: large;
     margin:0;
+}
+
+.menu-sidebar{
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height:100vh;
+    top: 0;
+    right: 0;
+    background-color: rgb(85, 81, 81);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.menu-sidebar a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: header-tab-font, Arial, Helvetica, sans-serif;
+    display: block;
+    transition: 0.3s;
+}
+  
+.menu-sidebar a:hover {
+    background-color: rgba(0,0,0,1.0);
+}
+  
+.menu-sidebar .close-menu {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    color: white;
+}
+
+.header-menu {
+    font-size: 30px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    padding: 18px;
+    border: none;
+}
+  
+.header-menu:hover {
+    
 }

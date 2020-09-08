@@ -126,7 +126,15 @@
                     <div class = "site-title">
                         <a href="">15th Coquitlam Scouts</a>
                     </div>
-                    <input type="image" class = "header-menu" src="/images/menu-icon.png" >
+                    <div id = "menu-sidebar" class = "menu-sidebar">
+                        <a href="javascript:void(0)" class="close-menu" id = "close-menu" onclick="menuClose()">x</a>
+                        <a class = "not-link" href="#">Programs</a>
+                        <a class = "not-link" href="#">Resources</a>
+                        <a class = "is-link" href="#">Contacts</a>
+                        <a class = "is-link" href="#">About</a>
+                    </div>
+                    <button class="header-menu" id="header-menu" onclick="menuOpen()">☰</button>
+                    
                 </header>
             </div> 
             

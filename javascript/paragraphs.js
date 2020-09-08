@@ -32,7 +32,9 @@ function parseText(text){
     return html;
 }
 
+
 document.addEventListener('DOMContentLoaded', function () {
+
     var text = readTextFile("./announcements/christmas-camp-2019.txt");
     text = parseText(text);
     var elements = document.getElementsByClassName("christmas-camp-2019");
@@ -45,3 +47,11 @@ document.addEventListener('DOMContentLoaded', function () {
     elements[0].insertAdjacentHTML('afterbegin', "<p>" + text + "</p>");
     elements[1].insertAdjacentHTML('afterbegin', "<p>" + text + "</p>");
 });
+
+function menuOpen(){
+    document.getElementById("menu-sidebar").style.width = "320px";
+}
+
+function menuClose(){
+    document.getElementById("menu-sidebar").style.width = "0";
+}   

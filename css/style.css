@@ -39,6 +39,9 @@
 @media screen and (max-width: 1023px){
     #content-desktop {display: none;}
     #content-mobile {display: block;}
+    .site-title a{
+        font-size: 120px;
+    }
 }
 
 
@@ -68,8 +71,6 @@ body {
     display:flex;
     justify-content: space-between;
     position: relative;
-    
-    
 }
 
 .site-title{
@@ -84,7 +85,11 @@ body {
     font-size: x-large;
 }
 
-
+@media screen and (max-width: 1023px){
+    .site-title a{
+        font-size: 28px;
+    }
+}
 
 .main-header-dropdown {
     position: relative;
@@ -166,6 +171,12 @@ body {
     margin: auto;
     font-family: banner-font, Arial, Helvetica, sans-serif;
     
+}
+
+@media screen and (max-width: 1023px){
+    .join-heading{
+        font-size: 42px;
+    }
 }
 
 .join-button{
@@ -402,11 +413,11 @@ footer{
 }
 
 .header-menu {
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
     background: transparent;
     color: white;
-    padding: 18px;
+    padding: 10px 18px;
     border: none;
 }
   

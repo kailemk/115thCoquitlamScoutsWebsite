@@ -87,7 +87,7 @@ body {
 
 @media screen and (max-width: 1023px){
     .site-title a{
-        font-size: 120px;
+        font-size: 40px;
     }
 }
 
@@ -175,7 +175,7 @@ body {
 
 @media screen and (max-width: 1023px){
     .join-heading{
-        font-size: 120px;
+        font-size: 60px;
     }
 }
 
@@ -265,6 +265,7 @@ body {
     background-size: cover;
     background-position: center;
     max-width: 100%;
+    padding: 20px 0;
 }
 
 #hubba-img{
@@ -299,7 +300,6 @@ body {
 
 footer{
     background-color: #23272a;
-    
 }
 
 .footer-container{
@@ -308,6 +308,16 @@ footer{
     display: flex;
     margin: auto;
 }
+
+@media screen and (max-width: 1023px){
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
 
 .footer-container > img{
     flex:1;
@@ -339,8 +349,8 @@ footer{
     align-items: center;
     justify-content: center;
     color:white;
-
 }
+
 
 .footer-header{
     display: flex;
@@ -351,8 +361,6 @@ footer{
     margin:0;
 }
 
-
-
 .footer-links{
     flex:3;
     display: flex;
@@ -361,9 +369,15 @@ footer{
 
 .footer-links a{
     text-align: left;
-    padding:0 80px 20px 0;
+    padding:0 2vw 20px 2vw;
     white-space: nowrap;
     text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+    .footer-links a{
+        padding:0 0.1vw 20px 0.1vw;
+    }
 }
 
 .footer-links ul{
@@ -376,6 +390,8 @@ footer{
     font-family: header-tab-font, Arial, Helvetica, sans-serif;
     font-size: large;
     margin:0;
+    padding: 0 20px;
+    
 }
 
 .menu-sidebar{

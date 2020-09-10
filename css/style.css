@@ -87,7 +87,7 @@ body {
 
 @media screen and (max-width: 1023px){
     .site-title a{
-        font-size: 40px;
+        font-size: 25px;
     }
 }
 
@@ -175,7 +175,7 @@ body {
 
 @media screen and (max-width: 1023px){
     .join-heading{
-        font-size: 60px;
+        font-size: 40px;
     }
 }
 
@@ -437,6 +437,3 @@ footer{
     border: none;
 }
   
-.header-menu:hover {
-    
-}

@@ -53,7 +53,6 @@ body {
     height:100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(../images/Mt-Garibaldi-TravelSages-Truck-Camping.jpg);
     object-fit: fill;
     background-size: cover;
     background-position: center;
@@ -61,8 +60,41 @@ body {
 
 }
 
-.main-header-wrapper{
+.banner-container > div{
     flex:45%;
+}
+
+.main-banner{
+    background-image: url(../images/Mt-Garibaldi-TravelSages-Truck-Camping.jpg);
+    
+}
+
+.schedule-banner{
+    background-image: url(../images/calendar.jpg);
+}
+
+.outings-banner{
+    background-image: url(../images/black-tusk.jpg);
+}
+
+.uniform-banner{
+    background-image: url(../images/wedgemount-lake.jpeg);
+}
+
+.equipment-lists-banner{
+    background-image: url(../images/outdoor-gear.jpg);
+}
+
+.registration-banner{
+    background-image: url(../images/golden-ears.jpg);
+}
+
+.contacts-banner{
+    background-image: url(../images/phone.jpg);
+}
+
+.about-banner{
+    background-image: url(../images/cypress.jpg);
 }
 
 .main-header{
@@ -73,12 +105,20 @@ body {
     position: relative;
 }
 
+.black-background{
+    background: black;
+    margin:auto;
+    padding:0;
+    background-position: center;
+    text-align: center;
+}
+
 .site-title{
     padding: 25px 2.5%;
 }
 
 .site-title a{
-    margin: 0;
+    margin:0;
     color: white;
     font-family: group-logo-font, Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -110,9 +150,11 @@ body {
     color: #4de040;
     font-size: 16px;
     cursor: default;
+    pointer-events: none;
 }
 
 .is-link{
+    text-decoration: none;
     color:white;
     font-size: 16px;
 }
@@ -223,6 +265,9 @@ body {
     font-weight: 400;
 }
 
+.extra-vertical-padding{
+    padding: 20px 0;
+}
 .announcement-date{
     text-align: center;
     margin:auto;
@@ -235,6 +280,10 @@ body {
     margin:auto;
     display: flex;
     align-content: flex-end;
+}
+
+.column-flex{
+    flex-direction: column;
 }
 
 .top-announcement-separator{
@@ -252,8 +301,10 @@ body {
     flex:8;
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .bot-announcement-separator{
     flex:3;
@@ -266,6 +317,16 @@ body {
     background-position: center;
     max-width: 100%;
     padding: 20px 0;
+    vertical-align: middle
+}
+
+.announcement-image-medium{
+    object-fit: scale-down;
+    background-size: cover;
+    background-position: center;
+    max-width: 70%;
+    padding: 20px 0;
+    vertical-align: middle
 }
 
 #hubba-img{
@@ -385,7 +446,6 @@ footer{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     list-style-type: none;
     font-family: header-tab-font, Arial, Helvetica, sans-serif;
     font-size: large;
@@ -436,4 +496,45 @@ footer{
     padding: 10px 18px;
     border: none;
 }
-  
+
+.calendar-container{
+    text-align: center;
+}
+
+.calendar-container iframe{
+    width:100vw;
+    height:95vh;
+    max-width: 1024px;
+    margin:2.5vh 0;
+}
+
+.pdf-embed{
+    width:100vw;
+    height:95vh;
+}
+
+.no-marker{
+    list-style-type:none;
+}
+
+.no-indent{
+    padding-left: 0;
+}
+
+.no-underline{
+    text-decoration: none;
+    text-decoration-style: none;
+    text-decoration-color: transparent;
+}
+
+.small-max-height{
+    max-height: 150px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.center-text{
+    text-align: center;
+}

@@ -54,4 +54,4 @@ function menuOpen(){
 
 function menuClose(){
     document.getElementById("menu-sidebar").style.width = "0";
-}   
+}

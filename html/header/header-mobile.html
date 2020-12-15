@@ -4,18 +4,19 @@
             <a href="/index.html">15th Coquitlam Scouts</a>
         </div>
         <div id = "menu-sidebar" class = "menu-sidebar">
-            <a href="javascript:void(0)" class="close-menu" id = "close-menu" onclick="menuClose()">x</a>
-
-            <div>
-                <a href="">Programs</a>
-                <div>
-                    <a class = "dropdown-button" href="/schedule.html">Schedule</a>
-                    <a class = "dropdown-button" href="/outings.html">Outings</a>
-                </div>
+            <div class = "display-column-flex">
+                <a href="javascript:void(0)" class="close-menu" id = "close-menu" onclick="menuClose()">x</a>
             </div>
             
-            <a href="">Resources</a>
-            <div>
+            <a href="/index.html" class = "site-sidebar">15th Coquitlam Scouts</a>
+            <a class="collapsible-button" href="javascript:void(0)">Programs</a>
+            <div class="collapsed-content">
+                <a class = "dropdown-button" href="/schedule.html">Schedule</a>
+                <a class = "dropdown-button" href="/outings.html">Outings</a>
+            </div>
+            
+            <a class="collapsible-button" href="javascript:void(0)">Resources</a>
+            <div class="collapsed-content">
                 <a class = "dropdown-button" href="/uniform.html">Uniform</a>
                 <a class = "dropdown-button" href="/equipment-lists.html">Equipment Lists</a>
                 <a class = "dropdown-button" href="/registration.html">Registration</a>
@@ -27,4 +28,4 @@
         
         <button class="header-menu" id="header-menu" onclick="menuOpen()">☰</button>
     </header>
-</div> 
+</div>

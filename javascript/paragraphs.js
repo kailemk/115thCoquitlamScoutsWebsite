@@ -14,16 +14,6 @@ function readTextFile(file){
 }
 
 function parseText(text){
-    /*
-    var char = '\n';
-    var i = j = 0;
-
-    while ((j = text.indexOf(char, i)) !== -1) {
-        console.log(text.substring(i, j));
-        i = j + 1;
-    }
-    */
-
     var lines = text.split('\n');
     var html = "";
     for(var i = 0; i < lines.length; i++){
@@ -46,12 +36,5 @@ document.addEventListener('DOMContentLoaded', function () {
     elements = document.getElementsByClassName('camp-reminder');
     elements[0].insertAdjacentHTML('afterbegin', "<p>" + text + "</p>");
     elements[1].insertAdjacentHTML('afterbegin', "<p>" + text + "</p>");
+    
 });
-
-function menuOpen(){
-    document.getElementById("menu-sidebar").style.width = "320px";
-}
-
-function menuClose(){
-    document.getElementById("menu-sidebar").style.width = "0";
-}

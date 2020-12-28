@@ -7,6 +7,7 @@
     <link rel="stylesheet" type = "text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="javascript/common-html.js"></script>
+    <script src="javascript/schedule.js"></script>
     <script src="javascript/mobile.js"></script>
 
 </head>
@@ -18,15 +19,9 @@
                 <h1 class = "join-heading">Schedule</h1>
             </div>
         </div>
-
-        <div class = "calendar-container">
-            <iframe src="https://calendar.google.com/calendar/embed?src=15th.coquitlam.scoutsection%40gmail.com&ctz=America%2FVancouver" style="border: 0" frameborder="0" scrolling="no"></iframe>
-        </div>
-
+        <div id = "schedule-desktop"></div>
         <div id = "footer-desktop"></div>
     </div>
-
-
 
     <div id = "content-mobile">
         <div class = "banner-container schedule-banner">
@@ -35,12 +30,7 @@
                 <h1 class = "join-heading">Schedule</h1>
             </div>
         </div>
-    
-
-        <div class = "calendar-container">
-            <iframe src="https://calendar.google.com/calendar/embed?src=15th.coquitlam.scoutsection%40gmail.com&ctz=America%2FVancouver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-        </div>
-
+        <div id = "schedule-mobile"></div>
         <div id = "footer-mobile"></div>
     </div>
 </body>

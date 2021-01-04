@@ -22,19 +22,18 @@ function parseText(text){
     return html;
 }
 
+function generateParagraphHTML(file, className){
+    var text = readTextFile(file);
+    text = parseText(text);
+    var elements = document.getElementsByClassName(className);
+    elements[0].insertAdjacentHTML('afterbegin', "<p>" + text + "</p>");
+    elements[1].insertAdjacentHTML('afterbegin', "<p>" + text + "</p>");
+}
+
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    var text = readTextFile("./announcements/christmas-camp-2019.txt");
-    text = parseText(text);
-    var elements = document.getElementsByClassName("christmas-camp-2019");
-    elements[0].insertAdjacentHTML('afterbegin', "<p>" + text + "</p>");
-    elements[1].insertAdjacentHTML('afterbegin', "<p>" + text + "</p>");
-
-    text = readTextFile("./announcements/camp-reminder.txt");
-    text = parseText(text);
-    elements = document.getElementsByClassName('camp-reminder');
-    elements[0].insertAdjacentHTML('afterbegin', "<p>" + text + "</p>");
-    elements[1].insertAdjacentHTML('afterbegin', "<p>" + text + "</p>");
+    generateParagraphHTML("./announcements/christmas-camp-2019.txt", "christmas-camp-2019");
     
+    generateParagraphHTML("./announcements/camp-reminder.txt", "camp-reminder");
 });

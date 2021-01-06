@@ -575,6 +575,14 @@ footer{
     text-decoration-color: transparent;
 }
 
+.close-list{
+    margin-top:-15px;
+}
+
+.no-bottom-margin{
+    margin-bottom: 10px;
+}
+
 .small-max-height{
     max-height: 150px;
 }

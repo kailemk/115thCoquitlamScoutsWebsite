@@ -17,7 +17,7 @@ function parseText(text){
     var lines = text.split('\n');
     var html = "";
     for(var i = 0; i < lines.length; i++){
-        html += lines[i] + "<br> <br>";
+        html += lines[i];
     }
     return html;
 }
@@ -32,8 +32,8 @@ function generateParagraphHTML(file, className){
 
 
 document.addEventListener('DOMContentLoaded', function () {
+});
 
-    generateParagraphHTML("./announcements/christmas-camp-2019.txt", "christmas-camp-2019");
-    
-    generateParagraphHTML("./announcements/camp-reminder.txt", "camp-reminder");
+$(document).ready(function() {
+    $(".first-meeting-2021").load("./html/announcements/first-meeting-2021.html"); 
 });

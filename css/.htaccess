@@ -1,0 +1,11 @@
+# mod_rewrite starts here
+
+RewriteEngine on
+
+# Do not run rule if the file DNE on the server
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check for file in directory with .html extension
+RewriteCond %{REQUEST_FILENAME}\.html -file
+
+RewriteRule ^(.*)$ $1.html [NC,L, R=301]

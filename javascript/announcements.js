@@ -7,4 +7,6 @@ $(document).ready(function() {
     $(".first-meeting-01-2021").load("./html/announcements/01-2021/first-meeting.html");
     $(".no-meeting-01-2021").load("./html/announcements/01-2021/no-meeting.html");
     $(".firestarting-02-2021").load("./html/announcements/02-2021/firestarting.html");
+    $(".update2-02-2021").load("./html/announcements/02-2021/update2.html");
+    $(".update3-02-2021").load("./html/announcements/02-2021/update3.html");
 });

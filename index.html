@@ -9,7 +9,7 @@
     <title>115th Coquitlam Scouts</title>
     <link rel="stylesheet" type = "text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascript/announcements.js"></script>
+    <script type="module" src="javascript/announcements/announcements.js"></script>
     <script src="javascript/common-html.js"></script>
     <script src="javascript/mobile.js"></script>
     <script src="javascript/helper.js"></script>
@@ -27,99 +27,7 @@
 
         <h1 class = "page-title">Announcements</h1>
 
-        <div class = "announcement-odd">
-            <h2 class = "announcement-title">Feb 12 Meeting Plan</h2>
-            <h4 class = "announcement-date">Posted February 8, 2021 at 8:00AM</h4>
-            <div class = "announcement-content">
-                <div class = "announcement-message update3-02-2021"></div>
-                <div class = "announcement-image-side">
-                    <div class = "top-announcement-separator"></div> 
-                    <img src="images/flashlight.png" alt="Flashlight" class = "announcement-image" id = "flashlight-img" height = "180px">
-                    <div class = "bot-announcement-separator"></div> 
-                </div>
-            </div>        
-        </div>
-
-        <div class = "announcement-even">
-            <h2 class = "announcement-title">Update for Next Week's Meeting</h2>
-            <h4 class = "announcement-date">Posted February 3, 2021 at 9:00AM</h4>
-            <div class = "announcement-content">
-                <div class = "announcement-image-side">
-                    <div class = "top-announcement-separator"></div> 
-                    <img src="images/tarp-shelther.png" alt="Tarp shelter" class = "announcement-image" id = "tarp-shelther-img" height = "180px">
-                    <div class = "bot-announcement-separator"></div> 
-                </div>
-                <div class = "announcement-message update2-02-2021"></div>
-            </div>        
-        </div>
-
-        <div class = "announcement-odd">
-            <h2 class = "announcement-title">Firestarting Meeting This Week</h2>
-            <h4 class = "announcement-date">Posted February 2, 2021 at 11:00AM</h4>
-            <div class = "announcement-content">
-                <div class = "announcement-message firestarting-02-2021"></div>
-                <div class = "announcement-image-side">
-                    <div class = "top-announcement-separator"></div> 
-                    <img src="images/fire.png" alt="Fire" class = "announcement-image" id = "fire-img" height = "180px">
-                    <div class = "bot-announcement-separator"></div> 
-                </div>
-            </div>        
-        </div>
-
-        <div class = "announcement-even">
-            <h2 class = "announcement-title">No Meeting This Week</h2>
-            <h4 class = "announcement-date">Posted January 25, 2021 at 11:00AM</h4>
-            <div class = "announcement-content">
-                <div class = "announcement-image-side">
-                    <div class = "top-announcement-separator"></div> 
-                    <img src="images/no-meeting.png" alt="No sign" class = "announcement-image" id = "computer-img" height = "180px">
-                    <div class = "bot-announcement-separator"></div> 
-                </div>
-                <div class = "announcement-message no-meeting-01-2021">
-                </div>
-            </div>        
-        </div>
-
-        <div class = "announcement-odd">
-            <h2 class = "announcement-title">115th Troop Meeting This Week</h2>
-            <h4 class = "announcement-date">Posted January 16, 2021 at 12:21AM</h4>
-            <div class = "announcement-content">
-                <div class = "announcement-message first-meeting-01-2021">
-                </div>
-                <div class = "announcement-image-side">
-                    <div class = "top-announcement-separator"></div> 
-                    <img src="images/hatchet.png" alt="Hatchet Image" class = "announcement-image" id = "computer-img" height = "180px">
-                    <div class = "bot-announcement-separator"></div> 
-                </div>
-            </div>        
-        </div>
-        <div class = "announcement-even">
-            <h2 class = "announcement-title">Scouts Canada Announces Return to Stage 2</h2>
-            <h4 class = "announcement-date">Posted January 10, 2021 at 11:29PM</h4>
-            <div class = "announcement-content">
-                <div class = "announcement-image-side">
-                    <div class = "top-announcement-separator"></div> 
-                    <img src="images/knife.png" alt="Knife Image" class = "announcement-image" height = "140px">
-                    <div class = "bot-announcement-separator"></div> 
-                </div>
-                <div class = "announcement-message jan-stage2-2021">
-                </div>
-            </div>        
-        </div>
-
-        <div class = "announcement-odd">
-            <div class = "announcement-image-side">
-                <div class = "top-announcement-separator"></div> 
-                <img src="images/computer.png" alt="Computer Image" class = "announcement-image" id = "computer-img" height = "170px">
-                <div class = "bot-announcement-separator"></div> 
-            </div>
-            <h2 class = "announcement-title">115th Coquitlam Scout Section</h2>
-            <h4 class = "announcement-date">Posted January 6, 2021 at 12:41AM</h4>
-            <div class = "announcement-content">
-                <div class = "announcement-message first-meeting-2021">
-                </div>
-            </div>        
-        </div>
+        <div id="announcements-desktop"></div>
 
         <div id = "footer-desktop"></div>
     </div>
@@ -136,94 +44,7 @@
         </div>
 
         <h1 class = "page-title">Announcements</h1>
-        
-        <div class = "announcement-odd">
-            <div class = "announcement-image-side">
-                <div class = "top-announcement-separator"></div> 
-                <img src="images/flashlight.png" alt="Flashlight" height = "140px" class = "announcement-image" id = "flashlight-img" height = "180px">
-                <div class = "bot-announcement-separator"></div> 
-            </div>
-            <h2 class = "announcement-title">Feb 12 Meeting Plan</h2>
-            <h4 class = "announcement-date">Posted February 8, 2021 at 8:00AM</h4>
-            <div class = "announcement-message update3-02-2021"></div>    
-        </div>
-
-        <div class = "announcement-even">
-            <div class = "announcement-image-side">
-                <div class = "top-announcement-separator"></div> 
-                <img src="images/tarp-shelther.png" alt="" height = "140px" class = "announcement-image" id = "tarp-shelther-img" height = "180px">
-                <div class = "bot-announcement-separator"></div> 
-            </div>
-            <h2 class = "announcement-title">Update for Next Week's Meeting</h2>
-            <h4 class = "announcement-date">Posted February 3, 2021 at 9:00AM</h4>
-            <div class = "announcement-message update2-02-2021"></div>    
-        </div>
-
-        <div class = "announcement-odd">
-            <div class = "announcement-image-side">
-                <div class = "top-announcement-separator"></div> 
-                <img src="images/fire.png" alt="Fire" height = "140px" class = "announcement-image" id = "fire-img" height = "180px">
-                <div class = "bot-announcement-separator"></div> 
-            </div>
-            <h2 class = "announcement-title">Firestarting Meeting This Week</h2>
-            <h4 class = "announcement-date">Posted February 2, 2021 at 11:00AM</h4>
-            <div class = "announcement-message firestarting-02-2021"></div>    
-        </div>
-
-
-        <div class = "announcement-even">
-            <div class = "announcement-image-side">
-                <div class = "top-announcement-separator"></div> 
-                <img src="images/no-meeting.png" alt="No sign" height = "140px" class = "announcement-image" id = "computer-img" height = "180px">
-                <div class = "bot-announcement-separator"></div> 
-            </div>
-            <h2 class = "announcement-title">No Meeting This Week</h2>
-            <h4 class = "announcement-date">Posted January 25, 2021 at 11:00AM</h4>
-            <div class = "announcement-message no-meeting-01-2021"></div>
-        </div>
-
-        <div class = "announcement-odd">
-            <div class = "announcement-image-side">
-                <div class = "top-announcement-separator"></div> 
-                <img src="images/hatchet.png" alt="Hatchet Image" class = "announcement-image" height = "140px">
-                <div class = "bot-announcement-separator"></div> 
-            </div>
-
-            <h2 class = "announcement-title">115th Troop Meeting This Week</h2>
-            <h4 class = "announcement-date">Posted January 16, 2021 at 12:21AM</h4>
-            <div class = "announcement-message first-meeting-01-2021">
-            </div> 
-        </div>
-
-        <div class = "announcement-even">
-            <div class = "announcement-image-side">
-                <div class = "top-announcement-separator"></div> 
-                <img src="images/knife.png" alt="Knife Image" class = "announcement-image" id = "computer-img" height = "140px">
-                <div class = "bot-announcement-separator"></div> 
-            </div>
-
-            <h2 class = "announcement-title">Scouts Canada Announces Return to Stage 2</h2>
-            <h4 class = "announcement-date">Posted January 10, 2021 at 11:29PM</h4>
-            <div class = "announcement-message jan-stage2-2021">
-            </div> 
-        </div>
-
-        <div class = "announcement-odd">
-
-            <div class = "announcement-image-side">
-                <div class = "top-announcement-separator"></div> 
-                <img src="images/computer.png" alt="Computer Image" class = "announcement-image" id = "computer-img" height = "170px">
-                <div class = "bot-announcement-separator"></div> 
-            </div>
-
-            <h2 class = "announcement-title">115th Coquitlam Scout Section</h2>
-            <h4 class = "announcement-date">Posted January 6, 2021 at 12:41AM</h4>
-            <div class = "announcement-message first-meeting-2021">
-            </div> 
-        </div>
-
-
-
+        <div id="announcements-mobile"></div>
         <div id = "footer-mobile"></div>
     </div>
 </body>

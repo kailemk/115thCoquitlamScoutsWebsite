@@ -39,9 +39,6 @@
 @media screen and (max-width: 1023px){
     #content-desktop {display: none;}
     #content-mobile {display: block;}
-    .site-title a{
-        font-size: 120px;
-    }
 }
 
 
@@ -133,6 +130,14 @@ body {
     .site-title a{
         font-size: 25px;
     }
+
+}
+
+@media screen and (max-width: 409px){
+    .site-title a{
+        font-size: 24px;
+    }
+
 }
 
 .main-header-dropdown {
@@ -216,7 +221,6 @@ body {
     color:white;
     margin: 0 0 25px 0;
     font-family: banner-font, Arial, Helvetica, sans-serif;
-    
 }
 
 @media screen and (max-width: 1023px){
@@ -251,11 +255,11 @@ body {
     
 }
 
-.announcement-odd{
+.announcement-even{
     padding: 1em 0 1em 0;
 }
 
-.announcement-even{
+.announcement-odd{
     padding: 1em 0 1em 0;
     background-color: #d6d6d6;
 }

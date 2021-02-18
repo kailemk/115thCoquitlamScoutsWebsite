@@ -2,14 +2,11 @@
 
 ## TODO:
 
-### High Priority
-- Check scout store status 
-- Add cub uniform
-- Full site check
-
-### Low Priority
-- Make favicon
-- Make footer look better
 - Reactive improvements
+    - Smaller screens
+    - Bigger screens
+    - Use this concept to make it easier (make simple module): https://stackoverflow.com/questions/3401136/resize-font-to-fit-in-a-div-on-one-line
+- Make it easier to post announcements
+- Make footer look better
 - Make current tab indicator
-- Filter announcements and make announcements collapsible
+- Filter announcements and make announcements collapsibleA

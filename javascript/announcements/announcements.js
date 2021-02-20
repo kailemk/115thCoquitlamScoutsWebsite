@@ -7,6 +7,16 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "No Meeting This Week", 
+            date: "February 22, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/02-2021/no-meeting.html",
+            image: "images/no-meeting.png", 
+            imgAlt: "No sign", 
+            imgHeight: "180px",
+            forceMobile: false
+        }),
+        new Announcement({
             title: "Feb 12 Meeting Plan", 
             date: "February 8, 2021", 
             time: "08:00:00",

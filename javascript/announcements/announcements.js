@@ -1,11 +1,19 @@
 import Announcement           from "./announcement.js";
 import AnnouncementsGenerator from "./announcements-generator.js";
-document.addEventListener('DOMContentLoaded', function () {
-});
 
 $(document).ready(function() {
 
     new AnnouncementsGenerator([
+        new Announcement({
+            title: "March 5 Meeting Plan", 
+            date: "March 1, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/03-2021/update1.html",
+            image: "images/mug.png", 
+            imgAlt: "Mug", 
+            imgHeight: "180px",
+            forceMobile: false
+        }),
         new Announcement({
             title: "No Meeting This Week", 
             date: "February 22, 2021", 

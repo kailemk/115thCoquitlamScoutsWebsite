@@ -5,6 +5,16 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "March 19 Meeting Plan", 
+            date: "March 15, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/03-2021/update3.html",
+            image: "images/bear.png", 
+            imgAlt: "Bear", 
+            imgHeight: "180px",
+            forceMobile: false
+        }),
+        new Announcement({
             title: "March 12 Meeting Plan", 
             date: "March 5, 2021", 
             time: "23:46:00",

@@ -5,6 +5,16 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "No Meetings During Spring Break", 
+            date: "March 22, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/03-2021/update4.html",
+            image: "images/easter.png", 
+            imgAlt: "Easter Eggs", 
+            imgHeight: "180px",
+            forceMobile: false
+        }),
+        new Announcement({
             title: "March 19 Meeting Plan", 
             date: "March 15, 2021", 
             time: "08:00:00",

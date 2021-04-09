@@ -4,6 +4,17 @@ import AnnouncementsGenerator from "./announcements-generator.js";
 $(document).ready(function() {
 
     new AnnouncementsGenerator([
+        
+        new Announcement({
+            title: "Meeting Tonight", 
+            date: "April 9, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/04-2021/update1.html",
+            image: "images/tonight.png", 
+            imgAlt: "TONIGHT", 
+            imgHeight: "180px",
+            forceMobile: false
+        }),
         new Announcement({
             title: "No Meetings During Spring Break", 
             date: "March 22, 2021", 

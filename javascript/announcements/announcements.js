@@ -4,7 +4,26 @@ import AnnouncementsGenerator from "./announcements-generator.js";
 $(document).ready(function() {
 
     new AnnouncementsGenerator([
-        
+        new Announcement({
+            title: "May 7th Meeting", 
+            date: "May 3, 2021", 
+            time: "10:00:00",
+            contentPath: "./html/announcements/05-2021/update1.html",
+            image: "images/paracord-slingshot.png", 
+            imgAlt: "paracord sling shot", 
+            imgHeight: "180px",
+            forceMobile: false
+        }),
+        new Announcement({
+            title: "April 23 Meeting Plan", 
+            date: "April 19, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/04-2021/update2.html",
+            image: "images/first-aid-kit.png", 
+            imgAlt: "first aid kit", 
+            imgHeight: "180px",
+            forceMobile: false
+        }),
         new Announcement({
             title: "Meeting Tonight", 
             date: "April 9, 2021", 
@@ -12,7 +31,7 @@ $(document).ready(function() {
             contentPath: "./html/announcements/04-2021/update1.html",
             image: "images/tonight.png", 
             imgAlt: "TONIGHT", 
-            imgHeight: "180px",
+            imgHeight: "100px",
             forceMobile: false
         }),
         new Announcement({

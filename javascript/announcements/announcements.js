@@ -1,9 +1,29 @@
 import Announcement           from "./announcement.js";
 import AnnouncementsGenerator from "./announcements-generator.js";
+import Button                 from "./button.js"
 
 $(document).ready(function() {
 
     new AnnouncementsGenerator([
+        new Announcement({
+            title: "May 14th Meeting", 
+            date: "May 10, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/05-2021/update2.html",
+            image: "images/paracord-slingshot.png", 
+            imgAlt: "paracord sling shot", 
+            imgHeight: "180px",
+            forceMobile: false,
+            buttons: [
+                new Button({
+                title: "Simple",
+                link: "https://youtu.be/EE_Va-OMkqU"
+            }), new Button({
+                title: "Advanced",
+                link: "https://youtu.be/1DmWKwy_Ndw"
+            })
+            ]
+        }),
         new Announcement({
             title: "May 7th Meeting", 
             date: "May 3, 2021", 
@@ -12,7 +32,8 @@ $(document).ready(function() {
             image: "images/paracord-slingshot.png", 
             imgAlt: "paracord sling shot", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "April 23 Meeting Plan", 
@@ -22,7 +43,8 @@ $(document).ready(function() {
             image: "images/first-aid-kit.png", 
             imgAlt: "first aid kit", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "Meeting Tonight", 
@@ -32,7 +54,8 @@ $(document).ready(function() {
             image: "images/tonight.png", 
             imgAlt: "TONIGHT", 
             imgHeight: "100px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "No Meetings During Spring Break", 
@@ -42,7 +65,8 @@ $(document).ready(function() {
             image: "images/easter.png", 
             imgAlt: "Easter Eggs", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "March 19 Meeting Plan", 
@@ -52,7 +76,8 @@ $(document).ready(function() {
             image: "images/bear.png", 
             imgAlt: "Bear", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "March 12 Meeting Plan", 
@@ -62,7 +87,8 @@ $(document).ready(function() {
             image: "images/hot-dog.png", 
             imgAlt: "Hot Dog", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "March 5 Meeting Plan", 
@@ -72,7 +98,8 @@ $(document).ready(function() {
             image: "images/mug.png", 
             imgAlt: "Mug", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "No Meeting This Week", 
@@ -82,7 +109,8 @@ $(document).ready(function() {
             image: "images/no-meeting.png", 
             imgAlt: "No sign", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "Feb 12 Meeting Plan", 
@@ -92,7 +120,8 @@ $(document).ready(function() {
             image: "images/flashlight.png", 
             imgAlt: "Flashlight", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "Update for Next Week's Meeting", 
@@ -102,7 +131,8 @@ $(document).ready(function() {
             image: "images/tarp-shelther.png", 
             imgAlt: "Tarp", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "Firestarting Meeting This Week", 
@@ -112,7 +142,8 @@ $(document).ready(function() {
             image: "images/fire.png", 
             imgAlt: "Fire", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "No Meeting This Week", 
@@ -122,7 +153,8 @@ $(document).ready(function() {
             image: "images/no-meeting.png", 
             imgAlt: "No sign", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "115th Troop Meeting This Week", 
@@ -132,7 +164,8 @@ $(document).ready(function() {
             image: "images/hatchet.png", 
             imgAlt: "Hatchet", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "Scouts Canada Announces Return to Stage 2", 
@@ -142,7 +175,8 @@ $(document).ready(function() {
             image: "images/knife.png", 
             imgAlt: "Knife", 
             imgHeight: "180px",
-            forceMobile: false
+            forceMobile: false,
+            buttons: []
         }),
         new Announcement({
             title: "115th Coquitlam Scout Section", 
@@ -152,7 +186,8 @@ $(document).ready(function() {
             image: "images/computer.png", 
             imgAlt: "Computer", 
             imgHeight: "180px",
-            forceMobile: true
+            forceMobile: true,
+            buttons: []
         })
     ]);
 });

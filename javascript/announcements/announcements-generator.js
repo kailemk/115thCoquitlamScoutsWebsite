@@ -50,7 +50,10 @@ export default class AnnouncementsGenerator{
             announcement.headingHTML,
             announcement.contentHTML,
             announcement.msgHTML,
+            announcement.imgOpeningHTML,
             announcement.imgHTML,
+            announcement.buttonsHTML,
+            announcement.imgClosingHTML,
             announcement.closingHTML
         ].join("\n");
     }
@@ -61,7 +64,10 @@ export default class AnnouncementsGenerator{
             backgroundHTML,
             announcement.headingHTML,
             announcement.contentHTML,
+            announcement.imgOpeningHTML,
             announcement.imgHTML,
+            announcement.buttonsHTML,
+            announcement.imgClosingHTML,
             announcement.msgHTML,
             announcement.closingHTML
         ].join("\n");
@@ -77,11 +83,14 @@ export default class AnnouncementsGenerator{
         }
         return [
             backgroundHTML,
+            announcement.imgOpeningHTML,
             announcement.imgHTML,
+            announcement.imgClosingHTML,
             announcement.headingHTML,
             announcement.contentHTML,
             announcement.msgHTML,
-            announcement.closingHTML
+            announcement.closingHTML,
+            announcement.buttonsHTML,
         ].join("\n");
     }
 }

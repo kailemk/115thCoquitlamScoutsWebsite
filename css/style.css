@@ -247,6 +247,24 @@ body {
     background-color: rgba(77,224,64, 0.5);
 }
 
+.sign-up-button{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+    margin: 80px 8px;
+    padding: 8px 26px;
+    
+    font-family: banner-font, Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+.sign-up-button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .page-title{
     font-family: page-title-font, Arial, Helvetica, sans-serif;
     margin: auto;
@@ -549,6 +567,10 @@ footer{
     border: none;
 }
 
+.element-center{
+    text-align: center;
+}
+
 .calendar-container{
     text-align: center;
 }
@@ -595,8 +617,9 @@ footer{
     font-weight: bold;
 }
 
-.center-text{
+.button-div{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .center-list{

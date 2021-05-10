@@ -54,6 +54,7 @@ export default class AnnouncementsGenerator{
             announcement.imgHTML,
             announcement.buttonsHTML,
             announcement.imgClosingHTML,
+            announcement.closingHTML,
             announcement.closingHTML
         ].join("\n");
     }
@@ -69,6 +70,7 @@ export default class AnnouncementsGenerator{
             announcement.buttonsHTML,
             announcement.imgClosingHTML,
             announcement.msgHTML,
+            announcement.closingHTML,
             announcement.closingHTML
         ].join("\n");
 
@@ -91,6 +93,8 @@ export default class AnnouncementsGenerator{
             announcement.msgHTML,
             announcement.closingHTML,
             announcement.buttonsHTML,
+            announcement.closingHTML
+            
         ].join("\n");
     }
 }

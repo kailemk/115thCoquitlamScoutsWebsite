@@ -6,12 +6,28 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "May 30th Hike", 
+            date: "May 11, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/05-2021/update3.html",
+            image: "images/hiking.png", 
+            imgAlt: "hiking", 
+            imgHeight: "180px",
+            forceMobile: false,
+            buttons: [
+                new Button({
+                title: "Sign Up",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLScz4Vq7Y-To9lLTkqMhdbsXDQnzQQm4Tme2aVYqA0RC0TnSeg/viewform"
+            })
+            ]
+        }),
+        new Announcement({
             title: "May 14th Meeting", 
             date: "May 10, 2021", 
             time: "08:00:00",
             contentPath: "./html/announcements/05-2021/update2.html",
-            image: "images/paracord-slingshot.png", 
-            imgAlt: "paracord sling shot", 
+            image: "images/paracord-thumbnail.jpg", 
+            imgAlt: "paracord video thumbnail", 
             imgHeight: "180px",
             forceMobile: false,
             buttons: [

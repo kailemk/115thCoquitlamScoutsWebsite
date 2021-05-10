@@ -20,7 +20,7 @@ export default class Announcement{
         this.imgHTML            = this.mkImgHTML();
         this.buttonsHTML        = this.mkButtonsHTML();
         this.imgClosingHTML     = this.mkImgClosingHTML();
-        this.closingHTML        = this.mkClosingHTML();
+        this.closingHTML        = this.mkClosingDiv();
     }
 
     mkContentID(){
@@ -66,14 +66,17 @@ export default class Announcement{
     }
 
     mkButtonsHTML(){
-        let res = ""
+        if (this.buttons.length == 0) return ""
+
+        let res = "<div class='button-div'>"
         for(let i = 0; i < this.buttons.length; i++){
             res += [
-                "<div class='button-div'>",
-                    "<a class = \"sign-up-button\" target=\"_blank\" href=\"" + this.buttons[i].link + "\">" + this.buttons[i].title + "</a>",
-                "</div>"
+                    "<a class = \"sign-up-button\" target=\"_blank\" href=\"" + this.buttons[i].link + "\">" + this.buttons[i].title + "</a>"
             ].join("\n");
         }
+
+        res += "</div>"
+        
         return res
     }
 
@@ -85,12 +88,8 @@ export default class Announcement{
         return "       <div class = \"announcement-message " + this.contentID + "\"></div>";
     }
 
-    mkClosingHTML(){
-        return [
-            "   </div>",
-            "</div>",
-            "",
-            ""
-        ].join("\n");
+    mkClosingDiv(){
+        return "   </div>"
+
     }
 }

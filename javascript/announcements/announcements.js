@@ -6,6 +6,22 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "May 21 Meeting Plan", 
+            date: "May 17, 2021", 
+            time: "10:00:00",
+            contentPath: "./html/announcements/05-2021/update4.html",
+            image: "images/document.png", 
+            imgAlt: "document", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: [
+                new Button({
+                title: "Sign Up",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLScz4Vq7Y-To9lLTkqMhdbsXDQnzQQm4Tme2aVYqA0RC0TnSeg/viewform"
+            })
+            ]
+        }),
+        new Announcement({
             title: "May 30th Hike", 
             date: "May 11, 2021", 
             time: "08:00:00",

@@ -6,6 +6,28 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "June 4 Meeting Plan", 
+            date: "May 31, 2021", 
+            time: "10:00:00",
+            contentPath: "./html/announcements/05-2021/update6.html",
+            image: "images/triangular-bandage.png", 
+            imgAlt: "Triangular bandage", 
+            imgHeight: "180px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "May 28 No Meeting, May 30 Hike", 
+            date: "May 25, 2021", 
+            time: "10:00:00",
+            contentPath: "./html/announcements/05-2021/update5.html",
+            image: "images/burke-waterfall.jpg", 
+            imgAlt: "Burke Mountain waterfall", 
+            imgHeight: "300px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
             title: "May 21 Meeting Plan", 
             date: "May 17, 2021", 
             time: "10:00:00",

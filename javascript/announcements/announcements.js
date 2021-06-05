@@ -6,6 +6,17 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "June 11 Meeting Plan", 
+            date: "June 7, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/06-2021/update1.html",
+            image: "images/challenge.jpg", 
+            imgAlt: "Challenge", 
+            imgHeight: "180px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
             title: "June 4 Meeting Plan", 
             date: "May 31, 2021", 
             time: "10:00:00",

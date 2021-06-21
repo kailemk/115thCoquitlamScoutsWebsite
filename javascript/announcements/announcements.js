@@ -6,6 +6,28 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "No Meeting This Week / Summer Scouting Update", 
+            date: "June 21, 2021", 
+            time: "13:00:00",
+            contentPath: "./html/announcements/06-2021/update3.html",
+            image: "images/sun.png", 
+            imgAlt: "Sun", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "June 18 Meeting Plan", 
+            date: "June 15, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/06-2021/update2.html",
+            image: "images/truckers-hitch.png", 
+            imgAlt: "Trucker's hitch knot", 
+            imgHeight: "180px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
             title: "June 11 Meeting Plan", 
             date: "June 7, 2021", 
             time: "08:00:00",

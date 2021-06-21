@@ -26,7 +26,7 @@ $(document).ready(function() {
             imgHeight: "180px",
             forceMobile: false,
             buttons: []
-        }),
+        }), 
         new Announcement({
             title: "June 11 Meeting Plan", 
             date: "June 7, 2021", 

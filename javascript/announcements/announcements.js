@@ -6,6 +6,21 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "July 2 Meeting Plan + COVID Protocol Survey", 
+            date: "June 28, 2021", 
+            time: "10:00:00",
+            contentPath: "./html/announcements/06-2021/update4.html",
+            image: "images/survey.png", 
+            imgAlt: "Survey Form", 
+            imgHeight: "270px",
+            forceMobile: false,
+            buttons: [
+                new Button({
+                title: "Survey",
+                link: "https://forms.gle/KFAurevSPmXvejgM8"
+            })]
+        }),
+        new Announcement({
             title: "No Meeting This Week / Summer Scouting Update", 
             date: "June 21, 2021", 
             time: "13:00:00",

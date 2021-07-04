@@ -6,6 +6,21 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "July 9 Meeting Plan + Upcoming Camp + Covid Protocol Update", 
+            date: "July 5, 2021", 
+            time: "10:00:00",
+            contentPath: "./html/announcements/07-2021/update1.html",
+            image: "images/mountain-forest.png", 
+            imgAlt: "Mountain Forest", 
+            imgHeight: "250px",
+            forceMobile: true,
+            buttons: [
+                new Button({
+                title: "Sign Up",
+                link: "https://forms.gle/3KccGhXmfVA9XvUT8"
+            })]
+        }),
+        new Announcement({
             title: "July 2 Meeting Plan + COVID Protocol Survey", 
             date: "June 28, 2021", 
             time: "10:00:00",

@@ -27,7 +27,6 @@ export default class AnnouncementsGenerator{
         for(let i = 0; i < this.announcements.length; i++){
             result += this.mkMobileAnnouncement(this.announcements[i], i);
         }
-        console.log(result);
         return result;
     }
 

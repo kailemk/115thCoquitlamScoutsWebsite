@@ -6,10 +6,44 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: " Upcoming Meetings and Activities", 
+            date: "July 19, 2021", 
+            time: "10:00:00",
+            contentPath: "./html/announcements/07-2021/update4.html",
+            image: "images/no-meeting.png", 
+            imgAlt: "No sign", 
+            imgHeight: "180px",
+            forceMobile: true,
+            buttons: [
+                new Button({
+                title: "Camp Details",
+                link: "https://forms.gle/iyawFbcakULikeHLA"
+            }),
+                new Button({
+                title: "Survey",
+                link: "https://forms.gle/EJ7LPkpmiJ3M4Bvf9"
+            })]
+        }),
+        new Announcement({
+            title: "Scout Project: Shelf Building Project Availability Survey", 
+            date: "July 16, 2021", 
+            time: "22:50:00",
+            contentPath: "./html/announcements/07-2021/update3.html",
+            image: "images/shelf.png", 
+            imgAlt: "Shelf", 
+            imgHeight: "200px",
+            forceMobile: true,
+            buttons: [
+                new Button({
+                title: "Survey",
+                link: "https://forms.gle/C616nV228oit1Q6JA"
+            })]
+        }),
+        new Announcement({
             title: "July 9 Meeting Plan + Upcoming Camp + Covid Protocol Update", 
             date: "July 5, 2021", 
             time: "10:00:00",
-            contentPath: "./html/announcements/07-2021/update1.html",
+            contentPath: "./html/announcements/07-2021/update2.html",
             image: "images/mountain-forest.png", 
             imgAlt: "Mountain Forest", 
             imgHeight: "250px",
@@ -18,6 +52,21 @@ $(document).ready(function() {
                 new Button({
                 title: "Sign Up",
                 link: "https://forms.gle/3KccGhXmfVA9XvUT8"
+            })]
+        }),
+        new Announcement({
+            title: "Survey and Summer Meetings Reminder", 
+            date: "July 1, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/07-2021/update1.html",
+            image: "images/survey.png", 
+            imgAlt: "Survey Form", 
+            imgHeight: "220px",
+            forceMobile: false,
+            buttons: [
+                new Button({
+                title: "Survey",
+                link: "https://forms.gle/KFAurevSPmXvejgM8"
             })]
         }),
         new Announcement({

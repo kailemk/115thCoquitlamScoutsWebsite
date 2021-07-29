@@ -6,7 +6,33 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
-            title: " Upcoming Meetings and Activities", 
+            title: "August Camp at the Stawamus Chief", 
+            date: "July 29, 2021", 
+            time: "10:00:00",
+            contentPath: "./html/announcements/07-2021/update6.html",
+            image: "images/tent.png", 
+            imgAlt: "Tent", 
+            imgHeight: "200px",
+            forceMobile: true,
+            buttons: [
+                new Button({
+                title: "Camp Form",
+                link: "https://forms.gle/7Z4NqR5yukY1XHzS8"
+            })]
+        }),
+        new Announcement({
+            title: "Scout Project: Shelf Building Timeslots", 
+            date: "July 25, 2021", 
+            time: "22:00:00",
+            contentPath: "./html/announcements/07-2021/update5.html",
+            image: "images/screw.png", 
+            imgAlt: "Screw", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "Upcoming Meetings and Activities", 
             date: "July 19, 2021", 
             time: "10:00:00",
             contentPath: "./html/announcements/07-2021/update4.html",

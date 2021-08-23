@@ -6,6 +6,47 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "Summer to Fall Transition Updates + Photos at Camp", 
+            date: "August 23, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/08-2021/update3.html",
+            image: "images/uniform.png", 
+            imgAlt: "Scout Uniform", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "August 13 Meeting Plan + Reminder to Register for Camp", 
+            date: "August 10, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/08-2021/update2.html",
+            image: "images/spork-clipart.png", 
+            imgAlt: "Spork", 
+            imgHeight: "200px",
+            forceMobile: true,
+            buttons: [
+                new Button({
+                title: "Camp Form",
+                link: "https://forms.gle/7Z4NqR5yukY1XHzS8"
+            })]
+        }),
+        new Announcement({
+            title: "Meeting this Week (Aug. 6th)", 
+            date: "August 4, 2021", 
+            time: "09:00:00",
+            contentPath: "./html/announcements/08-2021/update1.html",
+            image: "images/pot.png", 
+            imgAlt: "Cooking Pot", 
+            imgHeight: "200px",
+            forceMobile: true,
+            buttons: [
+                new Button({
+                title: "Camp Form",
+                link: "https://forms.gle/7Z4NqR5yukY1XHzS8"
+            })]
+        }),
+        new Announcement({
             title: "August Camp at the Stawamus Chief", 
             date: "July 29, 2021", 
             time: "10:00:00",

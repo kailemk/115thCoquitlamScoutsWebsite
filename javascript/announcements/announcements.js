@@ -6,6 +6,61 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "Equipment Cleaning Plan", 
+            date: "September 7, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/09-2021/update3.html",
+            image: "images/hose.png", 
+            imgAlt: "Hose", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "September 10 Meeting Plan + Registration & Uniforms", 
+            date: "September 6, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/09-2021/update2.html",
+            image: "images/lantern.png", 
+            imgAlt: "Lantern", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "How to Order New Uniforms", 
+            date: "September 4, 2021", 
+            time: "13:00:00",
+            contentPath: "./html/announcements/09-2021/update1.html",
+            image: "images/uniform.png", 
+            imgAlt: "Scout Uniform", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "September 3 Meeting Plan + Reminders", 
+            date: "August 31, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/08-2021/update4.html",
+            image: "images/shelf.png", 
+            imgAlt: "Shelf", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "September 3 Meeting Plan + Reminders", 
+            date: "August 31, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/08-2021/update4.html",
+            image: "images/shelf.png", 
+            imgAlt: "Shelf", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
             title: "Summer to Fall Transition Updates + Photos at Camp", 
             date: "August 23, 2021", 
             time: "08:00:00",

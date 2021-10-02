@@ -6,6 +6,99 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "No meeting on October 8 Reminder", 
+            date: "October 4, 2021", 
+            time: "10:00:00",
+            contentPath: "./html/announcements/10-2021/update3.html",
+            image: "images/turkey.png", 
+            imgAlt: "Turkey", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "Food Shopping for Camp", 
+            date: "October 2, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/10-2021/update2.html",
+            image: "images/grocery.png", 
+            imgAlt: "Groceries", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "October 1 Meeting Plan", 
+            date: "October 1, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/10-2021/update1.html",
+            image: "images/compass.png", 
+            imgAlt: "Compass", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "Camp Registration Reminder + October Updates", 
+            date: "September 25, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/09-2021/update7.html",
+            image: "images/vaccine.png", 
+            imgAlt: "Vaccine", 
+            imgHeight: "250px",
+            forceMobile: true,
+            buttons: [
+                new Button({
+                title: "Camp Form",
+                link: "https://forms.gle/Ms8MUZwvygeR3PBV9"
+            }),
+                new Button({
+                title: "COVID-19 FAQ",
+                link: "https://www.scouts.ca/news-and-events/covid-19/covid-19-faq.html"
+            })]
+        }),
+        new Announcement({
+            title: "Next meeting on October 1 + Camp Registration Reminder", 
+            date: "September 20, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/09-2021/update6.html",
+            image: "images/document.png", 
+            imgAlt: "Form", 
+            imgHeight: "180px",
+            forceMobile: false,
+            buttons: [
+                new Button({
+                title: "Camp Form",
+                link: "https://forms.gle/Ms8MUZwvygeR3PBV9"
+            })]
+        }),
+        new Announcement({
+            title: "September 17 Meeting Plan + Registration for Camp", 
+            date: "September 13, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/09-2021/update5.html",
+            image: "images/square-lash.png", 
+            imgAlt: "Square Lash", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: [
+                new Button({
+                title: "Camp Form",
+                link: "https://forms.gle/Ms8MUZwvygeR3PBV9"
+            })]
+        }),
+        new Announcement({
+            title: "[UPDATE] Equipment Cleaning Plan", 
+            date: "September 10, 2021", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/09-2021/update4.html",
+            image: "images/tent.png", 
+            imgAlt: "Tent", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
             title: "Equipment Cleaning Plan", 
             date: "September 7, 2021", 
             time: "08:00:00",
@@ -233,7 +326,7 @@ $(document).ready(function() {
             date: "June 7, 2021", 
             time: "08:00:00",
             contentPath: "./html/announcements/06-2021/update1.html",
-            image: "images/challenge.jpg", 
+            image: "images/challenge.png", 
             imgAlt: "Challenge", 
             imgHeight: "180px",
             forceMobile: false,

@@ -36,7 +36,6 @@ export default class Announcement{
             t[5] = + t[0] < 12 ? 'AM' : 'PM';
             t[0] = + t[0] % 12 || 12;
         }
-        console.log(t.join(""))
         return t.join (''); // return adjusted time or original string
     }
 
@@ -54,8 +53,6 @@ export default class Announcement{
     mkImgOpeningHTML(){
         return "       <div class = \"announcement-image-side\">";
     }
-
-    
 
     mkImgHTML(){
         return [

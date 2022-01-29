@@ -17,17 +17,6 @@ $(document).ready(function() {
             buttons: []
         }),
         new Announcement({
-            title: "No meeting on October 8 Reminder", 
-            date: "October 4, 2021", 
-            time: "10:00:00",
-            contentPath: "./html/announcements/10-2021/update3.html",
-            image: "images/turkey.png", 
-            imgAlt: "Turkey", 
-            imgHeight: "200px",
-            forceMobile: false,
-            buttons: []
-        }),
-        new Announcement({
             title: "Food Shopping for Camp", 
             date: "October 2, 2021", 
             time: "08:00:00",
@@ -115,8 +104,7 @@ $(document).ready(function() {
             time: "08:00:00",
             contentPath: "./html/announcements/09-2021/update3.html",
             image: "images/hose.png", 
-            imgAlt: "Hose",image: "images/hatchet.png", 
-            imgAlt: "Hatchet", 
+            imgAlt: "Hose", 
             imgHeight: "200px",
             forceMobile: false,
             buttons: []
@@ -187,8 +175,12 @@ $(document).ready(function() {
             forceMobile: true,
             buttons: [
                 new Button({
-                title: "Camimage: "images/hatchet.png", 
-                imgAlt: "Hatchet", this Week (Aug. 6th)", 
+                title: "Camp Form",
+                link: "https://forms.gle/7Z4NqR5yukY1XHzS8"
+            })]
+        }),
+        new Announcement({
+            title: "Meeting this Week (Aug. 6th)", 
             date: "August 4, 2021", 
             time: "09:00:00",
             contentPath: "./html/announcements/08-2021/update1.html",
@@ -277,8 +269,10 @@ $(document).ready(function() {
                 link: "https://forms.gle/3KccGhXmfVA9XvUT8"
             })]
         }),
-        new Announcement({image: "images/hatchet.png", 
-        imgAlt: "Hatchet",",
+        new Announcement({
+            title: "Survey and Summer Meetings Reminder", 
+            date: "July 1, 2021", 
+            time: "08:00:00",
             contentPath: "./html/announcements/07-2021/update1.html",
             image: "images/survey.png", 
             imgAlt: "Survey Form", 
@@ -374,8 +368,8 @@ $(document).ready(function() {
                 title: "Sign Up",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLScz4Vq7Y-To9lLTkqMhdbsXDQnzQQm4Tme2aVYqA0RC0TnSeg/viewform"
             })
-            ]image: "images/hatchet.png", 
-            imgAlt: "Hatchet",
+            ]
+        }),
         new Announcement({
             title: "May 30th Hike", 
             date: "May 11, 2021", 

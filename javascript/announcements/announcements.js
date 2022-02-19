@@ -6,6 +6,39 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "No Meeting on Feb 25 + Reminder to Return Tents", 
+            date: "February 21, 2022", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/02-2022/update3.html",
+            image: "images/tent.png", 
+            imgAlt: "Tent",
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "Meeting Plan for Feb 18", 
+            date: "February 14, 2022", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/02-2022/update2.html",
+            image: "images/tarp-shelther.png", 
+            imgAlt: "Tarp",
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "Meeting Plan for Feb 11", 
+            date: "February 7, 2022", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/02-2022/update1.html",
+            image: "images/truckers-hitch.png", 
+            imgAlt: "Trucker's hitch knot",
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
             title: "Meeting Plan for Feb 4", 
             date: "January 31, 2022", 
             time: "10:00:00",

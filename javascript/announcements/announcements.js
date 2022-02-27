@@ -6,6 +6,21 @@ $(document).ready(function() {
 
     new AnnouncementsGenerator([
         new Announcement({
+            title: "Camp notice and Meeting Plan for March", 
+            date: "February 28, 2022", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/02-2022/update4.html",
+            image: "images/camping.png", 
+            imgAlt: "Camping",
+            imgHeight: "200px",
+            forceMobile: true,
+            buttons: [
+                new Button({
+                title: "Camp Form",
+                link: "https://forms.gle/kjKwN2CqkZitag3j6"
+            })]
+        }),
+        new Announcement({
             title: "No Meeting on Feb 25 + Reminder to Return Tents", 
             date: "February 21, 2022", 
             time: "08:00:00",
@@ -42,11 +57,44 @@ $(document).ready(function() {
             title: "Meeting Plan for Feb 4", 
             date: "January 31, 2022", 
             time: "10:00:00",
-            contentPath: "./html/announcements/01-2022/update9.html",
+            contentPath: "./html/announcements/01-2022/update4.html",
             image: "images/hatchet.png", 
             imgAlt: "Hatchet", 
             imgHeight: "200px",
             forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "No Regular Meeting on January 28",
+            date: "January 24, 2022", 
+            time: "10:00:00",
+            contentPath: "./html/announcements/01-2022/update3.html",
+            image: "images/no-meeting.png", 
+            imgAlt: "No meeting", 
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "Meeting Plan for January 21",
+            date: "January 17, 2022", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/01-2022/update2.html",
+            image: "images/fire.png", 
+            imgAlt: "Fire",
+            imgHeight: "200px",
+            forceMobile: false,
+            buttons: []
+        }),
+        new Announcement({
+            title: "Welcome to the Scouting Year of 2022",
+            date: "January 10, 2022", 
+            time: "08:00:00",
+            contentPath: "./html/announcements/01-2022/update1.html",
+            image: "images/waving-emoji.png", 
+            imgAlt: "Waving hand",
+            imgHeight: "200px",
+            forceMobile: true,
             buttons: []
         }),
         new Announcement({

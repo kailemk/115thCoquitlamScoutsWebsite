@@ -14,11 +14,7 @@ $(document).ready(function() {
             imgAlt: "Camping",
             imgHeight: "200px",
             forceMobile: true,
-            buttons: [
-                new Button({
-                title: "Camp Form",
-                link: "https://forms.gle/kjKwN2CqkZitag3j6"
-            })]
+            buttons: []
         }),
         new Announcement({
             title: "No Meeting on Feb 25 + Reminder to Return Tents", 
